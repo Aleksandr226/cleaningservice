@@ -3,150 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cleaning Service</title>
+    <title>Cleaning Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 2rem 0;
-        }
-        .banner {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            height: 400px;
+            background-color: #2d3e50;
             color: white;
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            padding: 20px;
         }
-        .banner h1 {
-            font-size: 3rem;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
         }
         .services {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
+            margin-top: 20px;
         }
-        .service {
-            flex: 1 1 45%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
-            padding: 1rem;
+        .service-card {
+            background-color: white;
+            padding: 20px;
             border-radius: 5px;
-            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 22%;
+            text-align: center;
+        }
+        .service-card h3 {
+            color: #2d3e50;
         }
         footer {
-            background: #333;
+            background-color: #2d3e50;
             color: white;
             text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        .contact-form {
-            background: #f4f4f4;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .contact-form label {
-            display: block;
-            margin: 0.5rem 0 0.2rem;
-        }
-        .contact-form input,
-        .contact-form textarea {
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
             width: 100%;
-            padding: 0.5rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background: #4CAF50;
-            color: white;
-            border: none;
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            border-radius: 5px;
         }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Cleaning Service </h1>
-        <p>Professional Cleaning You Can Trust</p>
+        <h1>Professional Cleaning Services</h1>
     </header>
 
-    <div class="banner">
-        <h1>Top-Quality Cleaning Services</h1>
-        <p>Serving Scarborough, Vaughan, and Surrounding Areas</p>
-        <p><strong>Call/Text:</strong> 647-571-2766 | <strong>Email:</strong> ilakhaa@yahoo.com</p>
-    </div>
+    <img src="picture1.webp" alt="Cleaning Services">
 
-    <div class="container">
-        <section>
-            <h2>About Us</h2>
-            <p>We are a team of experienced cleaners offering professional, reliable, and detailed cleaning services tailored to your needs. From deep cleaning to move-in/move-out cleaning, we’ve got you covered!</p>
-        </section>
-
-        <section>
-            <h2>Our Services</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Deep Cleaning</h3>
-                    <p>Thorough cleaning of every corner of your space, including hard-to-reach areas.</p>
-                </div>
-                <div class="service">
-                    <h3>Move-In/Move-Out Cleaning</h3>
-                    <p>Stress-free moving with complete cleaning to make the space ready for new occupants.</p>
-                </div>
-                <div class="service">
-                    <h3>Airbnb Cleaning</h3>
-                    <p>Reliable cleaning to maintain the highest standards for your guests.</p>
-                </div>
-                <div class="service">
-                    <h3>Post-Construction Cleaning</h3>
-                    <p>Remove dust and debris after construction or renovations.</p>
-                </div>
+    <div class="content">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Home Cleaning</h3>
+                <p>Expert home cleaning services to ensure your home is spotless and welcoming.</p>
             </div>
-        </section>
-
-        <section>
-            <h2>Contact Us</h2>
-            <div class="contact-form">
-                <form action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-
-                    <button type="submit">Send Message</button>
-                </form>
+            <div class="service-card">
+                <h3>Office Cleaning</h3>
+                <p>Professional office cleaning services to create a productive and hygienic workspace.</p>
             </div>
-        </section>
+            <div class="service-card">
+                <h3>Deep Cleaning</h3>
+                <p>Comprehensive cleaning for those hard-to-reach areas, leaving your space truly clean.</p>
+            </div>
+            <div class="service-card">
+                <h3>Carpet Cleaning</h3>
+                <p>Thorough carpet cleaning to remove dirt and stains, revitalizing your home or office floors.</p>
+            </div>
+        </div>
+
+        <h2>Why Choose Us?</h2>
+        <p>Our cleaning services provide the highest standards of cleanliness with a focus on customer satisfaction. By choosing us, you will receive reliable, professional cleaning, ensuring a healthier and more pleasant environment at your home or business.</p>
     </div>
 
     <footer>
-        <p>&copy; 2024 Cleaning Service. All Rights Reserved.</p>
+        <p>Contact us at: <a href="mailto:info@cleaningservice.com">info@cleaningservice.com</a> | Call us: (123) 456-7890</p>
     </footer>
+
 </body>
 </html>
